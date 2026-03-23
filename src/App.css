@@ -40,3 +40,21 @@ img{
     text-align: center;
     border: 2px solid red;
 }
+
+.visited-card{
+    background-color: aquamarine;
+    color: rgb(82, 11, 163);
+}
+
+.visited-button{
+    border: 2px solid rgba(4, 156, 62, 0.918);
+    color: lightgreen;
+    background-color: rgb(72, 122, 110);
+}
+
+.visit-count{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}

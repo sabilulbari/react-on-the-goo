@@ -99,5 +99,20 @@ button {
   border: 2px solid var(--border);
   background-color: #1f2025;
   padding: 10px;
+  color: green;
+  cursor: pointer;
   border-radius: 10px;
+  font-size: var(--border);
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover{
+  border: 2px solid lightgreen;
+  color: lightgreen;
+}
+
+button:active{
+  background-color: rgb(67, 77, 67);
+  border-top: 4px solid  lightgreen;
 }
