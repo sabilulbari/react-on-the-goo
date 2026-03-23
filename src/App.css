@@ -1,0 +1,34 @@
+.card{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.cardComponent{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.cardComponent:hover{
+    transform: scale(1.1);
+
+}
+
+img{
+     width: calc(100% - 150px);
+}
