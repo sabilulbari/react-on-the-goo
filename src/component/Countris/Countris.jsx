@@ -8,11 +8,13 @@ const Countris = ({ allCountris }) => {
   
   return (
     <>
-      <div className="card">
+      <div  className='main-body'>
         <h1>Total Country: {countris.countries.length}</h1>
-        {countries.map((country) => (
-          <Country key={country.ccn3.ccn3} country={country}></Country>
-        ))}
+        <div className="card">
+          {countries.map((country) => (
+            <Country key={country.ccn3.ccn3} country={country}></Country>
+          ))}
+        </div>
       </div>
     </>
   );
